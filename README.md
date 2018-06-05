@@ -1,4 +1,6 @@
 # gotoReact
+
+[![Dependency Status](https://david-dm.org/psancho/gotoreact/status.svg)](https://david-dm.org/psancho/gotoreact#info=dependencies) [![devDependency Status](https://david-dm.org/psancho/gotoreact/dev-status.svg)](https://david-dm.org/psancho/gotoreact#info=devDependencies)
 After using AngularJs in a ES6+webpack+Babel shell, I decided to dive into react.
 This is my very 1st experience with React, that comes just after completing the [tutorial](https://reactjs.org/tutorial/tutorial.html).
 
