@@ -24,7 +24,8 @@ cd gotoReact
 npm i
 
 # start the server
-npm start```
+npm start
+```
 
 Go to http://localhost:8080 in your browser.
 
