@@ -33,10 +33,8 @@ Note: strikethrough line indicates that the lib is not installed, yet
 * `babel-preset-react`: *handles JSX syntax*
 * ~~`babel-preset-stage-1`~~
 * `babel-preset-stage-2` *to use ES new features, like [object spread](https://github.com/tc39/proposal-object-rest-spread)*
-* ~~`chalk` *colorizes console output*~~
+* `chalk` *colorizes console output*
 * `css-loader` *interprets `@import` & `url()` as `import`*
-* `deepmerge` *merge 2 objects*
-  **TODO replace with `webpack-merge`**
 * `eslint`
 * ~~`eslint-config-airbnb`~~
 * `eslint-loader`
@@ -59,7 +57,7 @@ Note: strikethrough line indicates that the lib is not installed, yet
 * `webpack-cli`: *needed with webpack ^4.0.1*
 * `webpack-dev-server` *serve locally for dev purpose*
   **TODO maintenance only, use `webpack-serve` instead**
-* ~~`webpack-merge` *merge 2 objects*~~
+* `webpack-merge` *merge 2 objects*
 
 ## Further reading
 

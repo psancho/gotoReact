@@ -1,9 +1,9 @@
+const path = require('path');
+
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const parseArgs = require('minimist');
-const merge = require('deepmerge');
-const path = require('path');
 
 const args = parseArgs(process.argv.slice(2));
 const port = args.port || 8080;
