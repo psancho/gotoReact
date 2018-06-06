@@ -40,10 +40,10 @@ Note: strikethrough line indicates that the lib is not installed, yet
 * `eslint`
 * ~~`eslint-config-airbnb`~~
 * `eslint-loader`
-* ~~`eslint-plugin-import`~~
-* ~~`eslint-plugin-jsx-a11y`~~
+* ~~`eslint-plugin-import` *supports linting for ES6+*~~
+* ~~`eslint-plugin-jsx-a11y` *static AST checker for accessibility rules on JSX elements.*~~
 * `eslint-plugin-react`
-* ~~`extract-text-webpack-plugin` *style in a separate CSS file (cannot be used with webpack 4)*~~
+* ~~`extract-text-webpack-plugin` *style in a separate CSS file (cannot be used with webpack 4, use `mini-css-extract-plugin` instead)*~~
 * `html-webpack-plugin`
 * `html-loader` *better than `raw-loader`*
 * `mini-css-extract-plugin` *replaces `extract-text-webpack-plugin` and works with webpack 4*
