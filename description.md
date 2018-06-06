@@ -20,9 +20,9 @@ Note: strikethrough line indicates that the lib is not installed, yet
 ### frontend
 * `-S react`
 * `-S react-dom`
-* ~~`-S react-prop-types` *type checking for react*~~
-* `-S react-router-dom` *router for react, similar UI-router from angualrJs world*
-* ~~`-S semantic-ui-react` *multi theme, customisable CSS framework (more complcated than bootstrap)*~~
+* ~~`-S react-prop-types` *runtime type checking for react*~~
+* `-S react-router-dom` *routing capabilities for react, similar UI-router from angualrJs world*
+* ~~`-S semantic-ui-react` *multi theme, customisable CSS framework (more complicated than bootstrap)*~~
 
 ### dev
 
