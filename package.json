@@ -17,9 +17,9 @@
     "homepage": "https://github.com/psancho/gotoReact#readme",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --config ./webpack.config.js",
+        "start": "webpack-serve",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "rimraf dist && webpack -p --config ./webpack.config.js"
+        "build": "rimraf dist && webpack -p"
     },
     "dependencies": {
         "react": "^16.4.0",
@@ -48,7 +48,7 @@
         "style-loader": "^0.21.0",
         "webpack": "^4.10.0",
         "webpack-cli": "^3.0.0",
-        "webpack-dev-server": "^3.1.0",
-        "webpack-merge": "^4.1.0"
+        "webpack-merge": "^4.1.0",
+        "webpack-serve": "^1.0.0"
     }
 }

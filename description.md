@@ -55,9 +55,8 @@ Note: strikethrough line indicates that the lib is not installed, yet
 * ~~`webpack-bundle-analyzer` *visual analyser*~~
 * `webpack` *module bundler + build tool*
 * `webpack-cli`: *needed with webpack ^4.0.1*
-* `webpack-dev-server` *serve locally for dev purpose*
-  **TODO maintenance only, use `webpack-serve` instead**
 * `webpack-merge` *merge 2 objects*
+* `webpack-serve` *serve locally for dev purpose*
 
 ## Further reading
 
