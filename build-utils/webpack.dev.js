@@ -13,8 +13,9 @@ const config = {
         rules: [
             {
                 test: /\.js$/,
+                enforce: 'pre',
                 exclude: /node_modules/,
-                use: ['babel-loader', 'eslint-loader'],
+                use: 'eslint-loader',
             },
            {
                 test: /\.css$/,
