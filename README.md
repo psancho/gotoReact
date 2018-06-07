@@ -32,6 +32,11 @@ npm start
 
 Go to http://localhost:8080 in your browser.
 
+Note you can change the port directly in the `scripts` section of the `package.json`:
+```json
+"start": "webpack-serve --port=9000"
+```
+
 ## Building the app
 
 Just launch the following:
