@@ -6,18 +6,18 @@ import React from 'react';
 // import NoMatch from './NoMatch';
 
 const App = () => {
-  return (
-    <h1>My 1st component</h1>
-    // <Router>
-    //   <div>
-    //     <Switch>
-    //       <Route exact path="/" component={Home} />
-    //       <Route exact path="/dynamic" component={DynamicPage} />
-    //       <Route component={NoMatch} />
-    //     </Switch>
-    //   </div>
-    // </Router>
-  );
+    return (
+        <h1>My 1st component</h1>
+        // <Router>
+        //   <div>
+        //     <Switch>
+        //       <Route exact path="/" component={Home} />
+        //       <Route exact path="/dynamic" component={DynamicPage} />
+        //       <Route component={NoMatch} />
+        //     </Switch>
+        //   </div>
+        // </Router>
+    );
 };
 
 export default App;
