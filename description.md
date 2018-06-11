@@ -68,6 +68,7 @@ Note: strikethrough line indicates that the lib is not installed, yet
 
 ### Choose routing and state libs
 
+* [React Redux Tutorial for Beginners: The Definitive Guide (2018)](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
 * [React — Better App Routing with UI-Router](https://medium.com/@Carmichaelize/react-better-app-routing-with-ui-router-f76b334eebd7)
 * [Overview of UI-Router React and comparison with React Router](https://marcobotto.com/blog/overview-of-ui-router-react-and-comparison-with-react-router/)
 * [8 things to learn in React before using Redux](https://www.robinwieruch.de/learn-react-before-using-redux/)
