@@ -7,7 +7,6 @@ const port = args.port || 8080;
 const config = {
     mode: 'development',
     entry: [
-        'react-hot-loader/patch',
     ],
     module: {
         rules: [
@@ -39,7 +38,7 @@ const config = {
         filename: '[name].[hash].js',
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
+        // new webpack.HotModuleReplacementPlugin(),
     ],
     devServer: {
         hot: true,

@@ -14,10 +14,12 @@ npm init -y
 ```
 
 ## Packages
+
 Here is the commented list of dependencies.
 Note: strikethrough line indicates that the lib is not installed, yet
 
 ### frontend
+
 * `-S react`
 * `-S react-dom`
 * ~~`-S react-prop-types` *runtime type checking for react*~~
@@ -26,13 +28,13 @@ Note: strikethrough line indicates that the lib is not installed, yet
 
 ### dev
 
-* `babel-core`
+* `@babel/core`
 * `babel-eslint` *lints ES6 code*
 * `babel-loader`
-* `babel-preset-env` *detects witch ES version is used (2015, 2016 or 2017)*
-* `babel-preset-react`: *handles JSX syntax*
-* ~~`babel-preset-stage-1`~~
-* `babel-preset-stage-2` *to use ES new features, like [object spread](https://github.com/tc39/proposal-object-rest-spread)*
+* `@babel/preset-env` *detects witch ES version is used (2015, 2016 or 2017)*
+* `@babel/preset-react`: *handles JSX syntax*
+* ~~`@babel/preset-stage-1`~~
+* ~~`@babel/preset-stage-2` *to use ES new features, like [object spread](https://github.com/tc39/proposal-object-rest-spread)*~~ (support removed from @babel/core@7)
 * `chalk` *colorizes console output*
 * `css-loader` *interprets `@import` & `url()` as `import`*
 * `eslint`
